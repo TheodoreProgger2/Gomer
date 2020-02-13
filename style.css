@@ -1,0 +1,52 @@
+.photo{
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: auto;
+    padding: 15px;
+    margin: 15px;
+    background-image: url(https://avatarko.ru/img/kartinka/19/multfilm_Novyj_god_Simpsons_Bart_18638.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+    
+}
+.first{
+    border: 2px solid red;
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    margin:auto;
+}
+.text{
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 15px;;
+    border-bottom: 2px solid black;
+    width: 300px;
+}
+.main{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.about-item{
+    display: flex;  
+    padding: 15px;
+}
+.name{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+width: 50%;
+}
